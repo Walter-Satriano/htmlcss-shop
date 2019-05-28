@@ -6,6 +6,30 @@
 }
 
 /*Inizio layout prima linea di prodotti*/
+.sconto-trenta{
+  color: black;
+  font-size: 12px;
+  font-family: verdana;
+  width: 40px;
+  height: 15px;
+  background-color: rgb(26, 235, 53);
+  position: absolute;
+  left: 160px;
+  top: -10px;
+}
+
+.sconto-cinque{
+  color: black;
+  font-size: 12px;
+  font-family: verdana;
+  width: 30px;
+  height: 15px;
+  background-color: red;
+  position: absolute;
+  left: 170px;
+  top: -10px;
+}
+
 .boxipad{
   width: 200px;
   height: 300px;
@@ -49,3 +73,12 @@
   right: 15px;
   display: inline-block;
 }
+
+.headphone-image{
+  width: 190px;
+  top: 30px;
+  left: 5px;
+  position: relative;
+  display: inline-block;
+}
+/*Fine layout prima linea di prodotti*/
