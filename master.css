@@ -29,11 +29,22 @@
   left: 170px;
   top: -10px;
 }
+/*sono riuscito a far compare il cuore solo sulla prima immagine*/
+span{
+  display: none;
+  font-size: 30px;
+  color: red;
+  }
+
+div:hover span{
+  display: block;
+}
+
 
 .boxipad{
   width: 200px;
   height: 300px;
-  background-color: rgb(227, 227, 227);
+  background-color: rgb(237, 236, 236);
   position: absolute;
   top: 10px;
   left: 15px;
@@ -49,7 +60,7 @@
 .boxiphone{
   width: 200px;
   height: 300px;
-  background-color: rgb(227, 227, 227);
+  background-color: rgb(237, 236, 236);
   position: absolute;
   top: 10px;
   left: 225px;
@@ -67,7 +78,7 @@
 .boxheadphone{
   width: 200px;
   height: 300px;
-  background-color: rgb(227, 227, 227);
+  background-color: rgb(237, 236, 236);
   position: absolute;
   top: 10px;
   right: 15px;
@@ -87,7 +98,7 @@
 .boxipad2{
   width: 200px;
   height: 300px;
-  background-color: rgb(227, 227, 227);
+  background-color: rgb(237, 236, 236);
   position: relative;
   top: 340px;
   left: 15px;
@@ -103,7 +114,7 @@
 .boxiphone2{
   width: 200px;
   height: 300px;
-  background-color: rgb(227, 227, 227);
+  background-color: rgb(237, 236, 236);
   position: absolute;
   top: 340px;
   left: 225px;
@@ -121,7 +132,7 @@
 .boxheadphone2{
   width: 200px;
   height: 300px;
-  background-color: rgb(227, 227, 227);
+  background-color: rgb(237, 236, 236);
   position: absolute;
   top: 340px;
   right: 15px;
