@@ -1,7 +1,7 @@
 #mainbox{
   width: 650px;
   height: 650px;
-  background-color: lightgray;
+  background-color: white;
   position: absolute;
 }
 
@@ -33,7 +33,7 @@
 .boxipad{
   width: 200px;
   height: 300px;
-  background-color: white;
+  background-color: rgb(227, 227, 227);
   position: absolute;
   top: 10px;
   left: 15px;
@@ -49,7 +49,7 @@
 .boxiphone{
   width: 200px;
   height: 300px;
-  background-color: white;
+  background-color: rgb(227, 227, 227);
   position: absolute;
   top: 10px;
   left: 225px;
@@ -67,7 +67,7 @@
 .boxheadphone{
   width: 200px;
   height: 300px;
-  background-color: white;
+  background-color: rgb(227, 227, 227);
   position: absolute;
   top: 10px;
   right: 15px;
@@ -82,3 +82,57 @@
   display: inline-block;
 }
 /*Fine layout prima linea di prodotti*/
+
+/*Inizio layout seconda linea di prodotti*/
+.boxipad2{
+  width: 200px;
+  height: 300px;
+  background-color: rgb(227, 227, 227);
+  position: relative;
+  top: 340px;
+  left: 15px;
+}
+
+.ipad-image2{
+  width: 190px;
+  top: 30px;
+  left: 5px;
+  position: absolute;
+}
+
+.boxiphone2{
+  width: 200px;
+  height: 300px;
+  background-color: rgb(227, 227, 227);
+  position: absolute;
+  top: 340px;
+  left: 225px;
+  display: inline-block;
+}
+
+.iphone-image2{
+  width: 190px;
+  top: 30px;
+  left: 5px;
+  position: relative;
+  display: inline-block;
+}
+
+.boxheadphone2{
+  width: 200px;
+  height: 300px;
+  background-color: rgb(227, 227, 227);
+  position: absolute;
+  top: 340px;
+  right: 15px;
+  display: inline-block;
+}
+
+.headphone-image2{
+  width: 190px;
+  top: 30px;
+  left: 5px;
+  position: relative;
+  display: inline-block;
+}
+/*Fine layout seconda linea di prodotti*/
